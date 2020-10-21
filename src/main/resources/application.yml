@@ -1,0 +1,12 @@
+#端口号 项目名  jsp 热部署
+server:
+  port: 8081
+  servlet:
+    context-path: /springBootES-Day3
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
