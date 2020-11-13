@@ -1,0 +1,13 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: route_test_path  #路由的id 可以认为是当前路由规则的名字  要求唯一性
+          uri: http://localhost:8805  #匹配后的路由地址 【目标服务地址】
+          predicates:
+            - Path=/api/product/**  #断言 也就是匹配规则
+          filters:
+            - RewritePath=/api(?<segment>/?.*),$\{segment}
+server:
+  port: 9999

@@ -11,6 +11,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Security/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-server-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-user-8804/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-server-8801/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-product-8805/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gatway/pom.xml" />
       </list>
     </option>
   </component>
